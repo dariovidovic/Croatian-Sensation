@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Croatian Sensation</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="mainpage">Go BACK!!!</string>
+    <string name="funfact1">Fun Fact 1</string>
+    <string name="funfact2">Fun Fact 2</string>
+    <string name="funfact3">Fun Fact 3</string>
+    <string name="funfact4">Fun Fact 4</string>
+    <string name="funfact5">Fun Fact 5</string>
+    <string name="enterIngredients"></string>
+    <string name="strName">Name:</string>
+    <string name="strCategory">Type:</string>
+    <string name="strGlass">Glass:</string>
+    <string name="strInstructions">Instructions:</string>
+    <string name="searchRecipes">Search</string>
+    <string name="ingredients">Ingredients</string>
+    <string name="delete">Delete</string>
+    <string name="enter_cocktail">Enter cocktail</string>
+    <string name="fav">Fav</string>
+    <string name="cocktail_photo">Cocktail photo</string>
+
+</resources>

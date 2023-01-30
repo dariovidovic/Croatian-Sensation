@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background4"
+    tools:context=".TriviaFragment">
+
+    <Button
+        android:id="@+id/goToMainFromTriviaButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="@string/mainpage"
+        android:textColor="#80DEEA"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="TextContrastCheck" />
+
+    <TextView
+        android:textStyle="bold"
+        android:id="@+id/funFact1"
+        android:layout_width="314dp"
+        android:layout_height="102dp"
+        android:layout_marginTop="68dp"
+        android:text="@string/funfact1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.435"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextContrastCheck" />
+
+    <TextView
+        android:textStyle="bold"
+        android:id="@+id/funFact2"
+        android:layout_width="314dp"
+        android:layout_height="102dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/funfact2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.435"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/funFact1"
+        tools:ignore="TextContrastCheck" />
+
+    <TextView
+        android:textStyle="bold"
+        android:id="@+id/funFact3"
+        android:layout_width="314dp"
+        android:layout_height="102dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/funfact3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.435"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/funFact2"
+        tools:ignore="TextContrastCheck" />
+
+    <TextView
+        android:textStyle="bold"
+        android:id="@+id/funFact4"
+        android:layout_width="314dp"
+        android:layout_height="102dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/funfact4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.435"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/funFact3"
+        tools:ignore="TextContrastCheck,TextContrastCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
